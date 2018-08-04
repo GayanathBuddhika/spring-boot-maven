@@ -8,5 +8,11 @@ public interface UserServices {
 	
 	public List<UserModel> findAllUsers();
 
+	public String saveUser(UserModel allUser);
+
+	public String updateUser(UserModel newUser);
+
+	public UserModel findById(Integer id);
+
 	
 }
